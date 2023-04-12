@@ -7,6 +7,7 @@ const helpers = require('./utils/helpers');
 require('dotenv').config();
 
 // test comment 
+// test comment 2
 const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
